@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Text Image Date</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Kirim Text, Image, dan Data</div>
+        <hr>
+        <center>
+            <h1>KTP</h1>
+        </center>
+        <form action="/sayank" method="POST" enctype="multipart/form-data">
+            <fieldset style="width: 350px">
+                <p>
+                    <label>Nama : </label>
+                    <input type="text" name="nama">
+                </p>
+                </br><!-- comment -->
+                
+                <p>
+                    <label>Tanggal Lahir : </label>
+                    <input type="date" name="tgl">
+                </p>
+                </br><!-- comment -->
+                
+                <p>
+                    <label>Foto : </label>
+                    <input type="file" name="gambar" accept="image/*">
+                </p>
+                </br><!-- comment -->
+                
+                <p>
+                    <input type="submit" value="KIRIM" style="float: right">
+                </p>
+            </fieldset>
+            
+        </form>
+    
+    </body>
+</html>
